@@ -10,6 +10,7 @@ def find_prime_list_under_number(number):
             if i * i <= n and  n % i == 0:
                 break
         else:
+            print(n)
             prime_list.append(n)
 
     return prime_list
